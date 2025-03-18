@@ -44,7 +44,7 @@ export const Home = () => {
 			<section className='bg-slate-300 text-center py-4 '>
 				<input
 					type='text'
-					className='border-1'
+					className='border-1 rounded-2xl px-3 py-1 bg-slate-100'
 					placeholder='search'
 					onChange={(event) => {
 						setSearch(event.target.value);
